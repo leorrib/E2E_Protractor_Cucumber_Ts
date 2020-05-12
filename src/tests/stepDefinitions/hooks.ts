@@ -3,20 +3,16 @@ import { Status } from "cucumber";
 
 var {After, Before} = require('cucumber');
 
-// Before(function () {
-//   // This hook will be executed before all scenarios
-// });
-
-Before({tags: "@calculatortesting"}, function () {
+Before(function () {
   browser.manage().window().maximize();
 });
 
 Before({tags: "@angulartesting"}, function () {
-  console.log("I execute first")
+  console.log("I execute before tests performed on Angular.io")
 });
 
-After(function () {
-  console.log("Scenario is completed")
+After({tags: "@angulartesting"}, function () {
+  console.log("I execute after tests performed on Angular.io")
 });
 
 After(async function (scenario) {

@@ -24,7 +24,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "src\\tests\\stepDefinitions\\hooks.ts:10"
+              "location": "src\\tests\\stepDefinitions\\hooks.ts:6"
             },
             "result": {
               "status": "passed",
@@ -37,11 +37,11 @@
             "line": 6,
             "name": "I will navigate to \"Calculator\" page",
             "match": {
-              "location": "src\\tests\\stepDefinitions\\steps.ts:10"
+              "location": "src\\tests\\stepDefinitions\\steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 3022000000
+              "duration": 2927000000
             }
           },
           {
@@ -50,11 +50,11 @@
             "line": 7,
             "name": "I add two numbers: \"3\" and \"5\"",
             "match": {
-              "location": "src\\tests\\stepDefinitions\\steps.ts:19"
+              "location": "src\\tests\\stepDefinitions\\steps.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 247000000
+              "duration": 199000000
             }
           },
           {
@@ -63,22 +63,11 @@
             "line": 8,
             "name": "the output displayed should be \"8\"",
             "match": {
-              "location": "src\\tests\\stepDefinitions\\steps.ts:28"
+              "location": "src\\tests\\stepDefinitions\\steps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 2136000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "src\\tests\\stepDefinitions\\hooks.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000000
+              "duration": 2125000000
             }
           },
           {
@@ -89,7 +78,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           },
           {
@@ -122,7 +111,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "src\\tests\\stepDefinitions\\hooks.ts:10"
+              "location": "src\\tests\\stepDefinitions\\hooks.ts:6"
             },
             "result": {
               "status": "passed",
@@ -135,11 +124,11 @@
             "line": 6,
             "name": "I will navigate to \"Calculator\" page",
             "match": {
-              "location": "src\\tests\\stepDefinitions\\steps.ts:10"
+              "location": "src\\tests\\stepDefinitions\\steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 339000000
+              "duration": 312000000
             }
           },
           {
@@ -148,11 +137,11 @@
             "line": 7,
             "name": "I add two numbers: \"2\" and \"7\"",
             "match": {
-              "location": "src\\tests\\stepDefinitions\\steps.ts:19"
+              "location": "src\\tests\\stepDefinitions\\steps.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 191000000
+              "duration": 226000000
             }
           },
           {
@@ -161,22 +150,11 @@
             "line": 8,
             "name": "the output displayed should be \"9\"",
             "match": {
-              "location": "src\\tests\\stepDefinitions\\steps.ts:28"
+              "location": "src\\tests\\stepDefinitions\\steps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 2044000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "src\\tests\\stepDefinitions\\hooks.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000000
+              "duration": 1963000000
             }
           },
           {
@@ -220,7 +198,18 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "src\\tests\\stepDefinitions\\hooks.ts:14"
+              "location": "src\\tests\\stepDefinitions\\hooks.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\hooks.ts:10"
             },
             "result": {
               "status": "passed",
@@ -233,11 +222,11 @@
             "line": 20,
             "name": "I will navigate to \"AngularJs\" page",
             "match": {
-              "location": "src\\tests\\stepDefinitions\\steps.ts:10"
+              "location": "src\\tests\\stepDefinitions\\steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 2151000000
+              "duration": 2223000000
             }
           },
           {
@@ -246,11 +235,11 @@
             "line": 21,
             "name": "I click on header link and navigate to Angular page",
             "match": {
-              "location": "src\\tests\\stepDefinitions\\steps.ts:24"
+              "location": "src\\tests\\stepDefinitions\\steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 1643000000
+              "duration": 1530000000
             }
           },
           {
@@ -259,22 +248,11 @@
             "line": 22,
             "name": "I enter \"hello\" in the searchbox",
             "match": {
-              "location": "src\\tests\\stepDefinitions\\steps.ts:35"
+              "location": "src\\tests\\stepDefinitions\\steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 1479000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "src\\tests\\stepDefinitions\\hooks.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 0
+              "duration": 1381000000
             }
           },
           {
@@ -285,7 +263,18 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\hooks.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -318,11 +307,22 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "src\\tests\\stepDefinitions\\hooks.ts:14"
+              "location": "src\\tests\\stepDefinitions\\hooks.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\hooks.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
             }
           },
           {
@@ -331,11 +331,11 @@
             "line": 20,
             "name": "I will navigate to \"AngularJs\" page",
             "match": {
-              "location": "src\\tests\\stepDefinitions\\steps.ts:10"
+              "location": "src\\tests\\stepDefinitions\\steps.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1362000000
+              "duration": 1379000000
             }
           },
           {
@@ -344,11 +344,11 @@
             "line": 21,
             "name": "I click on header link and navigate to Angular page",
             "match": {
-              "location": "src\\tests\\stepDefinitions\\steps.ts:24"
+              "location": "src\\tests\\stepDefinitions\\steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 1767000000
+              "duration": 1589000000
             }
           },
           {
@@ -357,22 +357,11 @@
             "line": 22,
             "name": "I enter \"hey\" in the searchbox",
             "match": {
-              "location": "src\\tests\\stepDefinitions\\steps.ts:35"
+              "location": "src\\tests\\stepDefinitions\\steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 1555000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "src\\tests\\stepDefinitions\\hooks.ts:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000000
+              "duration": 1818000000
             }
           },
           {
@@ -384,6 +373,17 @@
             "result": {
               "status": "passed",
               "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\hooks.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
             }
           },
           {
