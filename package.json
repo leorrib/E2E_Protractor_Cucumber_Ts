@@ -1,0 +1,29 @@
+{
+  "name": "ts_bdd_e2e",
+  "version": "1.0.0",
+  "description": "Framework for Protactor (Ts)",
+  "author": "Leo",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor JSFiles/confCucumber.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "dependencies": {
+    "protractor": "5.4.4",
+    "typescript": "3.6.4",
+    "ts-node": "8.10.1",
+    "@types/node": "13.13.4",
+    "jasmine": "3.5.0",
+    "@types/jasmine": "3.5.10",
+    "@types/jasminewd2": "2.0.8",
+    "cucumber": "6.0.5",
+    "@types/cucumber": "4.0.4",
+    "protractor-cucumber-framework": "6.2.1",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "cucumber-html-reporter": "5.2.0"
+  }
+}
